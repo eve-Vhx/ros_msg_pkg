@@ -1,0 +1,15 @@
+# goal: GPS data sent to drone
+float64 lat
+float64 lon
+float64 alt
+float64 yaw_rad
+float64 timestamp
+uint8 mission_type
+
+---
+# Result: duration of task completion and boolean for success
+duration time_elapsed
+uint8 mission_completion
+---
+# Feedback: time passed since start of mission
+duration time_elapsed
